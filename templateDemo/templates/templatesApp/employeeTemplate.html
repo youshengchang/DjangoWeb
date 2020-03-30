@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Employee Template</title>
+    <link rel="stylesheet" href="{% static "css/emp.css"%}"/>
+  </head>
+  <body>
+    <h1>Empoyee Detail</h1>
+    <ol>
+      <li>ID: {{id}}</li>
+      <li>Name: {{name}}</li>
+      <li>Salary: {{sal}}</li>
+
+    </ol>
+    <img src="{% static "images/daniel.jpg"%}"/>
+  </body>
+</html>
